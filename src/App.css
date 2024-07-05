@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+display-flex,
+.display-flex,
+.display-flex-center,
+.signup-conter,
+.signin-content ,
+.social-login ,
+.social {
+   display: flex;
+   display:-webkit-flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+list-type-ulli , 
+.socials {
+  list-style-type: none;
+  margin:0;
+  padding:0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a:focus ,
+a:active {
+  text-decoration: none;
+  outline:none;
+}
+
+.main {
+  height: 100vh;
+  background: #f8f8f8;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+
+.home_page  {
+  background-image: url('./images/background.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.clear {
+  clear:both;
 }
+
+.contact_info_item:last-child {
+  margin-bottom:0px;
+}
+
+
